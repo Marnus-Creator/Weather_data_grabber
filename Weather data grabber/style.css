@@ -1,0 +1,76 @@
+/* Background color of the web page */
+body {
+  background-color: lightgray;
+  text-align: center;
+}
+
+/* Main container style */
+#container {
+  background-color: white;
+  width: 80%;
+  margin: 0 auto;
+  padding: 30px;
+  border: 2px solid black;
+}
+
+/* Heading style */
+h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+/* Container for city input section */
+#cityInputContainer {
+  display: inline-block;
+  margin-right: 20px;
+  text-align: left;
+}
+
+/* Input field style */
+#cityInput {
+  font-size: 18px;
+  padding: 10px;
+}
+
+/* Button style */
+#getWeatherBtn {
+  font-size: 18px;
+  padding: 10px 20px;
+}
+
+/* Style for the weather data section */
+#weatherData {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+/* Paragraph style */
+p {
+  margin-bottom: 10px;
+}
+
+/* Container for input, button, and output section */
+#dataContainer {
+  background-color: white;
+  width: 50%;
+  margin: 0 auto;
+  border: 5px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Style for the heading of weather data */
+h3 {
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+/* Style for the input field and button */
+input[type="text"],
+button {
+  font-size: 20px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+

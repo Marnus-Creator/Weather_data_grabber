@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Link to the external stylesheet -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- Title of the web page -->
+  <title>Weather App</title>
+</head>
+
+<body>
+  <!-- Main container for the page -->
+  <div id="container">
+    <!-- Heading for the web page -->
+    <h1>Weather App</h1>
+    <!-- Container for input, button, and output section -->
+    <div id="dataContainer">
+      <!-- Container for input section -->
+      <div id="cityInputContainer">
+        <!-- Description of the input field -->
+        <p>Enter the name of a city:</p>
+        <!-- Input field for the city name -->
+        <input type="text" id="cityInput">
+      </div>
+      <!-- Button to trigger the weather API call -->
+      <button id="getWeatherBtn">Get Weather</button>
+      <!-- Container for displaying the weather data -->
+      <div id="weatherData">
+        <p id="temperature"></p>
+        <p id="feelsLike"></p>
+        <p id="minTemperature"></p>
+        <p id="maxTemperature"></p>
+        <p id="pressure"></p>
+        <p id="humidity"></p>
+        <p id="windSpeed"></p>
+        <p id="windDirection"></p>
+        <p id="cloudiness"></p>
+        <p id="description"></p>
+      </div>
+    </div>
+  </div>
+  <!-- Include JavaScript code at the bottom of the page -->
+  <script src="app.js"></script>
+</body>
+
+</html>
